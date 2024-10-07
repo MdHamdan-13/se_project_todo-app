@@ -1,17 +1,22 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+The TO-DO App is seventh project of the software engineering program, which old and new technology were used to create this project. The main functionality of this project is for the user add and remove their goals in for of to-do list.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+This app lets user to add their goals and able to remove once they finished. The user also able specify the dates to their to-do list
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+- HTML -
+  Used to build the structure of the Webpage.
+- CSS -
+  Used to style the webpage.
+- JavaScript -
+  Used to make website more interactive.
+- OOP -
+  Used create class and objects.
 
 ## Deployment
 
-This project is deployed on GitHub Pages:
-
-- ADD LINK HERE
+- [Github Link](https://github.com/MdHamdan-13/se_project_todo-app.git)
