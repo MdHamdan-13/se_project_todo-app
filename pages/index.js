@@ -22,8 +22,8 @@ const generateTodo = (data) => {
 const todoPopUp = new PopupWithForm({
   popupSelector: "#add-todo-popup",
   handleFormSubmit: (inputValues) => {
-    const name = inputValues.target.name.value;
-    const dateInput = inputValues.target.date.value;
+    const name = inputValues.name;
+    const dateInput = inputValues.date;
 
     const date = new Date(dateInput);
     date.setMinutes(date.getMinutes() + date.getTimezoneOffset());
