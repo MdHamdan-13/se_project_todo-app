@@ -54,6 +54,7 @@ const todoPopUp = new PopupWithForm({
     const values = { name, date, id };
     const todo = generateTodo(values);
     section.addItem(todo);
+    handleAddTodo();
 
     todoValidator.resetValidation();
 
