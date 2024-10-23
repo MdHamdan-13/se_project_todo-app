@@ -25,8 +25,18 @@ function handleDelete(completed) {
   }
 }
 
+function handleAddTodo() {
+  todoCounter.updateTotal(true);
+}
+
 const generateTodo = (data) => {
-  const todo = new Todo(data, "#todo-template", handleCheck, handleDelete);
+  const todo = new Todo(
+    data,
+    "#todo-template",
+    handleCheck,
+    handleDelete,
+    handleAddTodo
+  );
   const todoElement = todo.getView();
   return todoElement;
 };
