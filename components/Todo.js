@@ -15,8 +15,8 @@ class Todo {
     });
 
     this._todoCheckboxEl.addEventListener("change", () => {
-      this._data.completed = !this._data.completed;
-      this._handleCheck(!this._completed);
+      this._completed = !this._completed;
+      this._handleCheck(this._completed);
     });
   }
 
@@ -26,7 +26,6 @@ class Todo {
     this._todoCheckboxEl.checked = this._data.completed;
     this._todoCheckboxEl.id = `todo-${this._data.id}`;
     this._todoLabel.setAttribute("for", `todo-${this._data.id}`);
-    this._handleAddTodo(!this._completed);
   }
 
   _generateDueDate() {
